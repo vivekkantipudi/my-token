@@ -1,10 +1,10 @@
-## 💡 Building and Testing a Simple ERC-20 Token in Remix
+## Building and Testing a Simple ERC-20 Token in Remix
 
 This guide details the process of compiling, deploying, and testing a basic ERC-20-like token smart contract (`MyToken.sol`) using the **Remix IDE** (Integrated Development Environment).
 
 ---
 
-### 1. ⚙️ Compilation
+### 1. Compilation
 
 The first step is to compile the Solidity contract code to generate the bytecode necessary for deployment.
 
@@ -15,7 +15,7 @@ The first step is to compile the Solidity contract code to generate the bytecode
 
 ---
 
-### 2. 🚀 Deployment
+### 2. Deployment
 
 After successful compilation, the contract is deployed to a simulated or real blockchain environment.
 
@@ -30,7 +30,7 @@ After successful compilation, the contract is deployed to a simulated or real bl
 
 ---
 
-### 3. ℹ️ Checking Token Information
+### 3. Checking Token Information
 
 Once deployed, the public view functions can be called to check the token's basic properties.
 
@@ -45,7 +45,7 @@ Once deployed, the public view functions can be called to check the token's basi
 
 ---
 
-### 4. 📤 Testing `transfer()`
+### 4. Testing `transfer()`
 
 The `transfer` function moves tokens directly from the sender's account to a specified recipient.
 
@@ -72,7 +72,7 @@ The contract should prevent sending tokens to the zero address (`0x0...0`).
 
 ---
 
-### 5. 🤝 Testing `approve()` and `transferFrom()`
+### 5. Testing `approve()` and `transferFrom()`
 
 These functions enable a spender to transfer tokens on behalf of the token owner, provided an **allowance** is set.
 
