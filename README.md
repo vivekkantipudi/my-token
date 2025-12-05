@@ -100,4 +100,4 @@ The `transferFrom` function attempts to move tokens, which requires a sufficient
 * **Result:** The screenshot shows a transaction attempting to transfer tokens that **reverts** with the error: **`"Insufficient allowance"`**. This likely occurred because the selected sender account **(the spender)** was attempting to move tokens from the owner without having a large enough allowance set, or the wrong account was used as the caller.
 
 
-*(Note: The provided image shows the transaction from account `0xDB38...8103` reverting because of "Insufficient allowance," confirming the allowance check logic is functional.)*
+
